@@ -1,5 +1,4 @@
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -10,3 +9,5 @@
 *.njsproj
 *.sln
 *.sw?
+config.bat
+node_modules

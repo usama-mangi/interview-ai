@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node init && node dist/server.js",
     "server": "ts-node server.ts",
-    "dev": "ts-node-dev --respawn --transpile-only server.ts",
-    "build": "tsc"
+    "dev": "node init && ts-node-dev --respawn --transpile-only server.ts",
+    "build": "node init && tsc"
   },
   "keywords": [],
   "author": "",
